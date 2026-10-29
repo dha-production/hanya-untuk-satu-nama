@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsip Rahasia SR-23 — Hanya Untuk Satu Nama</title>
+    <meta
+      name="description"
+      content="Ada sebuah pesan terkunci yang sengaja disimpan rapat di dalam halaman ini. Jangan dibuka kecuali nama kamu adalah Silvia Rahma."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Dancing+Script:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="love letter 2.css" />
+  </head>
+  <body>
+    <!-- Latar Partikel Cahaya & Hati -->
+    <canvas id="romantic-canvas"></canvas>
+
+    <!-- Cahaya Atmosferik -->
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+
+    <!-- Audio Musik Latar Romantis (Otomatis Berputar Saat Masuk Kejutan Terakhir) -->
+    <audio id="bg-romantic-audio" loop preload="auto"></audio>
+
+    <main class="story-container">
+      <!-- =====================================================
+           TAHAP 1: HALAMAN UTAMA YANG BIKIN KEPO (TANPA BANYAK TOMBOL)
+           ===================================================== -->
+      <section class="stage-curious" id="stage-curious">
+        <div class="curious-header" id="curious-header">
+          <span class="mystery-label">Pesan Terkunci</span>
+          <h1 class="mystery-title" id="mystery-title">
+            Ada sesuatu yang sengaja kusimpan rapat di sini...
+          </h1>
+          <p class="mystery-subtitle" id="mystery-subtitle">
+            Jangan disentuh, kecuali kamu benar-benar bernama <strong>Silvia Rahma</strong>.
+          </p>
+        </div>
+
+        <div class="envlope-wrapper">
+          <div id="envelope" class="close" role="button" tabindex="0" aria-label="Sentuh amplop untuk membuka rahasia">
+            <div class="wax-seal" id="wax-seal">
+              <span>SR</span>
+              <small>23</small>
+            </div>
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+
+            <div class="letter" id="envelope-letter">
+              <div class="letter-inner">
+                <div class="letter-badge">Rahasia Terbuka</div>
+                <div class="words line1">Untuk: Beloved Silvia Rahma</div>
+                <div class="words line2">Ternyata benar kamu yang membukanya.</div>
+                <div class="words line3">Selamat memasuki usia 23 Tahun,</div>
+                <div class="words line4">Ada kejutan yang menunggumu di bawah ini...</div>
+              </div>
+            </div>
+
+            <div class="hearts">
+              <div class="heart a1"></div>
+              <div class="heart a2"></div>
+              <div class="heart a3"></div>
+              <div class="heart a4"></div>
+              <div class="heart a5"></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="curious-hint" id="curious-hint">
+          Sentuh segel amplop di atas jika kamu penasaran isinya.
+        </p>
+      </section>
+
+      <!-- =====================================================
+           TAHAP 2: SURAT ROMANTIS, BAIT PUISI/PANTUN, DAN LILIN 23 TAHUN
+           ===================================================== -->
+      <section class="stage-story hidden-stage" id="stage-story">
+        <div class="story-divider">
+          <span class="ornament-line"></span>
+          <span class="ornament-text">Bab Spesial • 23 Tahun</span>
+          <span class="ornament-line"></span>
+        </div>
+
+        <!-- Surat Cinta Utama -->
+        <article class="glass-panel letter-parchment reveal-block">
+          <header class="parchment-head">
+            <div class="monogram-circle">SR</div>
+            <div>
+              <span class="parchment-kicker">Untuk Perempuan Terindah di Hatiku</span>
+              <h2>Beloved Silvia Rahma — 23 Tahun</h2>
+            </div>
+          </header>
+
+          <div class="parchment-content">
+            <p class="greeting">Untuk yang selalu kusayangi, <strong>Beloved Silvia Rahma</strong>,</p>
+            <p>
+              Tepat di usia <strong>23 tahun</strong> ini, aku ingin kamu tahu betapa berharganya kehadiranmu di dalam hidupku. Dua puluh tiga tahun lalu, semesta menghadirkan sosok perempuan hebat yang kini menjadi alasan di balik setiap rasa tenang, syukur, dan bahagiaku.
+            </p>
+            <p>
+              Setiap kali aku menatap senyum tulusmu—baik di bawah langit senja di atas jembatan, di tepi birunya lautan, di antara bunga-bunga yang mekar, hingga di hari bahagiamu mengenakan selempang kelulusan—duniaku seakan berhenti sejenak hanya untuk mengagumimu.
+            </p>
+            <p>
+              Selamat ulang tahun yang ke-<strong>23 tahun</strong>, cintaku. Semoga setiap langkah yang kamu pijak selalu dalam lindungan Tuhan, setiap doa yang kamu bisikkan di sepertiga malam segera menemukan jawabannya, dan semoga aku selalu menjadi orang yang menemani perjalanan indahmu.
+            </p>
+            <p class="closing">
+              Dengan seluruh ketulusan hati,<br />
+              <strong>Seseorang yang selalu mencintaimu</strong>
+            </p>
+          </div>
+        </article>
+
+        <!-- Untaian Bait Hati (Tanpa Judul "Kata Romantis & Pantun untuk" dan Tanpa Label "Pantun Pertama" dst) -->
+        <div class="pantun-section reveal-block">
+          <blockquote class="featured-romantic-quote glass-panel">
+            "Dari milyaran manusia di bumi, hatiku memilih berhenti pada satu nama: Beloved Silvia Rahma. Bertambahnya usiamu ke-23 tahun adalah bertambahnya rasa syukurku karena memilikimu."
+          </blockquote>
+
+          <div class="pantun-grid">
+            <div class="pantun-card glass-panel">
+              <div class="sampiran">
+                <p>Pergi berlayar ke tepi lautan,</p>
+                <p>Angin berhembus membawa harapan.</p>
+              </div>
+              <div class="isi-pantun">
+                <p>Selamat ulang tahun ke-23 tahun kuucapkan,</p>
+                <p>Untuk <strong>Beloved Silvia Rahma</strong> yang paling kurindukan.</p>
+              </div>
+            </div>
+
+            <div class="pantun-card glass-panel">
+              <div class="sampiran">
+                <p>Senja merona di atas jembatan,</p>
+                <p>Cahaya redup indah menawan.</p>
+              </div>
+              <div class="isi-pantun">
+                <p>Senyum manis <strong>Silvia Rahma</strong> tak tergantikan,</p>
+                <p>Menjadi penyejuk hati di sepanjang perjalanan.</p>
+              </div>
+            </div>
+
+            <div class="pantun-card glass-panel">
+              <div class="sampiran">
+                <p>Bunga mekar di pagi hari,</p>
+                <p>Harum semerbak menenangkan jiwa.</p>
+              </div>
+              <div class="isi-pantun">
+                <p>Dua puluh tiga tahun usiamu kini,</p>
+                <p>Semoga bahagia selalu menyertai <strong>Beloved Silvia Rahma</strong>.</p>
+              </div>
+            </div>
+
+            <div class="pantun-card glass-panel">
+              <div class="sampiran">
+                <p>Beli permata di tanah seberang,</p>
+                <p>Disimpan rapi di dalam peti.</p>
+              </div>
+              <div class="isi-pantun">
+                <p>Wahai <strong>Silvia Rahma</strong> yang paling kusayang,</p>
+                <p>Tetaplah bersamaku sampai akhir nanti.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pemicu Kejutan Terakhir: Tiup Lilin 23 Tahun -->
+        <div class="candle-trigger-box glass-panel reveal-block" id="candle-section">
+          <span class="kicker-tag">Satu Langkah Lagi Menuju Kejutan Terakhir</span>
+          <h3>Tiup Lilin Usia 23 Tahun</h3>
+          <p class="candle-instruction" id="candle-instruction">
+            Masih ada satu rahasia terakhir yang belum terbuka. Ucapkan doa terbaikmu dalam hati, lalu <strong>sentuh kue atau api lilin angka 23 di bawah ini</strong> untuk membuka kejutan terakhir.
+          </p>
+
+          <div class="birthday-cake-stage" id="cake-trigger" role="button" tabindex="0" aria-label="Sentuh untuk meniup lilin 23 tahun">
+            <div class="candles-row">
+              <div class="candle">
+                <div class="flame" id="flame-1"></div>
+                <div class="smoke" id="smoke-1"></div>
+                <span class="candle-num">2</span>
+              </div>
+              <div class="candle">
+                <div class="flame" id="flame-2"></div>
+                <div class="smoke" id="smoke-2"></div>
+                <span class="candle-num">3</span>
+              </div>
+            </div>
+            <div class="cake-top-icing"></div>
+            <div class="cake-tier tier-1">
+              <span>Beloved Silvia Rahma</span>
+            </div>
+            <div class="cake-tier tier-2">
+              <span>23 Tahun Penuh Berkah</span>
+            </div>
+            <div class="cake-plate"></div>
+          </div>
+
+          <p class="candle-hint" id="candle-hint">
+            Sentuh lilin yang menyala untuk meniupnya
+          </p>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           TAHAP 3: KEJUTAN TERAKHIR — AUTO-SLIDE OTOMATIS DENGAN
+           MUSIK OTOMATIS & HATI BERTERBANGAN SETIAP BERGANTI SLIDE
+           ===================================================== -->
+      <section class="stage-final-surprise hidden-stage" id="stage-final-surprise">
+        <div class="story-divider">
+          <span class="ornament-line"></span>
+          <span class="ornament-text">Kejutan Terakhir Untukmu</span>
+          <span class="ornament-line"></span>
+        </div>
+
+        <div class="surprise-header">
+          <h2>Potret Kenangan &amp; Pesona Beloved Silvia Rahma</h2>
+          <p>
+            Setiap potret berganti secara otomatis diiringi alunan musik dan taburan hati yang berterbangan. Sentuh gambar jika ingin melihatnya secara penuh.
+          </p>
+          <!-- Indikator Alunan Musik Otomatis (Dapat Disentuh untuk Jeda/Putar) -->
+          <div class="music-status-pill" id="music-toggle-pill" role="button" tabindex="0">
+            <span class="music-bars" id="music-bars">
+              <i></i><i></i><i></i><i></i>
+            </span>
+            <span id="music-status-text">Alunan Musik Romantis Berputar</span>
+          </div>
+        </div>
+
+        <!-- Panggung Auto-Slide Utama -->
+        <div class="romantic-slider-wrapper" id="romantic-slider-wrapper">
+          <!-- Lapisan Hati Berterbangan Khusus Setiap Pergantian Slide -->
+          <div class="slider-flying-hearts" id="slider-flying-hearts" aria-hidden="true"></div>
+
+          <div class="romantic-slider-card glass-panel" id="romantic-slider-card">
+            <!-- Bar Progres Waktu Auto-Slide -->
+            <div class="slide-progress-track">
+              <div class="slide-progress-bar" id="slide-progress-bar"></div>
+            </div>
+
+            <!-- Penghitung Slide -->
+            <div class="slide-counter-badge">
+              <span id="slide-current-index">01</span> / <span id="slide-total-count">07</span>
+            </div>
+
+            <!-- Daftar Slide (6 Foto + 1 Video) -->
+            <div class="slides-viewport" id="slides-viewport">
+              <!-- Slide 1 -->
+              <figure
+                class="memory-slide active-slide"
+                data-index="0"
+                data-type="image"
+                data-src="assets/silvia-1.jpg"
+                data-title="Teduhnya Senja Bersama Silvia Rahma"
+                data-caption="Langit senja boleh meredup, namun teduhnya senyuman Silvia Rahma selalu menghangatkan hati."
+              >
+                <div class="memory-frame">
+                  <img src="assets/silvia-1.jpg" alt="Beloved Silvia Rahma di Jembatan Senja" />
+                </div>
+                <figcaption class="memory-caption">
+                  <h4>Teduhnya Senja Bersama Silvia Rahma</h4>
+                  <p>"Di bawah langit senja ini, senyummu adalah pemandangan paling indah."</p>
+                  <a href="assets/silvia-1.jpg" target="_blank" rel="noopener" class="standalone-link">
+                    Buka File Gambar Sendiri
+                  </a>
+                </figcaption>
+              </figure>
+
+              <!-- Slide 2 -->
+              <figure
+                class="memory-slide"
+                data-index="1"
+                data-type="image"
+                data-src="assets/silvia-2.jpg"
+                data-title="Bahagia Seluas Samudra — Beloved Silvia Rahma"
+                data-caption="Seluas lautan biru di belakangmu, seluas itu pula doa baikku untuk kebahagiaanmu di usia 23 tahun."
+              >
+                <div class="memory-frame">
+                  <img src="assets/silvia-2.jpg" alt="Beloved Silvia Rahma di Tepi Pantai" />
+                </div>
+                <figcaption class="memory-caption">
+                  <h4>Bahagia Seluas Lautan</h4>
+                  <p>"Cerahnya langit dan birunya laut berpadu dengan senyum manismu."</p>
+                  <a href="assets/silvia-2.jpg" target="_blank" rel="noopener" class="standalone-link">
+                    Buka File Gambar Sendiri
+                  </a>
+                </figcaption>
+              </figure>
+
+              <!-- Slide 3 -->
+              <figure
+                class="memory-slide"
+                data-index="2"
+                data-type="image"
+                data-src="assets/silvia-3.jpg"
+                data-title="Mekar di Taman Bunga — Beloved Silvia Rahma"
+                data-caption="Di antara bunga-bunga yang bermekaran, tetap wajah lembut Silvia Rahma yang paling memikat hati."
+              >
+                <div class="memory-frame">
+                  <img src="assets/silvia-3.jpg" alt="Beloved Silvia Rahma di Taman Bunga" />
+                </div>
+                <figcaption class="memory-caption">
+                  <h4>Keindahan yang Tak Pernah Pudar</h4>
+                  <p>"Bunga di taman pun kalah indah dibandingkan ketulusan senyummu."</p>
+                  <a href="assets/silvia-3.jpg" target="_blank" rel="noopener" class="standalone-link">
+                    Buka File Gambar Sendiri
+                  </a>
+                </figcaption>
+              </figure>
+
+              <!-- Slide 4 -->
+              <figure
+                class="memory-slide"
+                data-index="3"
+                data-type="image"
+                data-src="assets/silvia-4.jpg"
+                data-title="Cerita di Setiap Perjalanan — Beloved Silvia Rahma"
+                data-caption="Potret hangat di bawah rindangnya pepohonan, menyimpan cerita sederhana yang tak terlupakan."
+              >
+                <div class="memory-frame">
+                  <img src="assets/silvia-4.jpg" alt="Beloved Silvia Rahma Potret Klasik" />
+                </div>
+                <figcaption class="memory-caption">
+                  <h4>Cerita di Setiap Perjalanan</h4>
+                  <p>"Ke mana pun arah perjalanan pergi, bersamamu selalu terasa menyenangkan."</p>
+                  <a href="assets/silvia-4.jpg" target="_blank" rel="noopener" class="standalone-link">
+                    Buka File Gambar Sendiri
+                  </a>
+                </figcaption>
+              </figure>
+
+              <!-- Slide 5 -->
+              <figure
+                class="memory-slide"
+                data-index="4"
+                data-type="image"
+                data-src="assets/silvia-5.jpg"
+                data-title="Kebanggaan Terbesar: Silvia Rahma, S.Kom"
+                data-caption="Momen pencapaian berharga Silvia Rahma, S.Kom. Aku selalu bangga pada setiap kerja keras dan perjuanganmu."
+              >
+                <div class="memory-frame">
+                  <img src="assets/silvia-5.jpg" alt="Beloved Silvia Rahma, S.Kom" />
+                </div>
+                <figcaption class="memory-caption">
+                  <h4>Kebanggaan Terbesar: Silvia Rahma, S.Kom</h4>
+                  <p>"Melihatmu meraih mimpi dan tersenyum bangga adalah kebahagiaan tak ternilai."</p>
+                  <a href="assets/silvia-5.jpg" target="_blank" rel="noopener" class="standalone-link">
+                    Buka File Gambar Sendiri
+                  </a>
+                </figcaption>
+              </figure>
+
+              <!-- Slide 6 -->
+              <figure
+                class="memory-slide"
+                data-index="5"
+                data-type="image"
+                data-src="assets/silvia-6.jpg"
+                data-title="Cahaya Semangat Setiap Hari — Beloved Silvia Rahma"
+                data-caption="Gaya ceria penuh percaya diri yang selalu berhasil menularkan semangat positif setiap hari."
+              >
+                <div class="memory-frame">
+                  <img src="assets/silvia-6.jpg" alt="Beloved Silvia Rahma Ceria" />
+                </div>
+                <figcaption class="memory-caption">
+                  <h4>Cahaya Semangat Setiap Hari</h4>
+                  <p>"Tetaplah menjadi Silvia Rahma yang ceria, hangat, dan penuh percaya diri di usia 23 tahun."</p>
+                  <a href="assets/silvia-6.jpg" target="_blank" rel="noopener" class="standalone-link">
+                    Buka File Gambar Sendiri
+                  </a>
+                </figcaption>
+              </figure>
+
+              <!-- Slide 7 (Video Spesial) -->
+              <figure
+                class="memory-slide"
+                data-index="6"
+                data-type="video"
+                data-src="assets/silvia-video.mp4"
+                data-title="Video Kenangan Spesial 23 Tahun Beloved Silvia Rahma"
+                data-caption="Kejutan puncak untuk ulang tahunmu yang ke-23. Terima kasih telah menjadi bagian terindah dalam hidupku."
+              >
+                <div class="memory-frame video-container">
+                  <video
+                    id="surprise-video"
+                    src="assets/silvia-video.mp4"
+                    controls
+                    playsinline
+                    preload="metadata"
+                    poster="assets/silvia-5.jpg"
+                  ></video>
+                </div>
+                <figcaption class="memory-caption">
+                  <h4>Video Kenangan Spesial 23 Tahun Beloved Silvia Rahma</h4>
+                  <p>"Setiap detik yang terekam adalah bukti betapa berharganya dirimu. Selamat ulang tahun ke-23, Beloved Silvia Rahma."</p>
+                  <a href="assets/silvia-video.mp4" target="_blank" rel="noopener" class="standalone-link">
+                    Buka File Video Sendiri
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- Indikator Titik Slide (Otomatis Berjalan & Bisa Disentuh) -->
+            <div class="slider-dots" id="slider-dots" aria-label="Indikator Slide"></div>
+          </div>
+        </div>
+
+        <footer class="story-footer">
+          <p>Didedikasikan sepenuh hati untuk <strong>Beloved Silvia Rahma</strong> • Perayaan Usia <strong>23 Tahun</strong></p>
+        </footer>
+      </section>
+    </main>
+
+    <!-- LIGHTBOX PENAMPIL MANDIRI (SAAT FOTO DIKLIK) -->
+    <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true">
+      <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+      <div class="lightbox-dialog glass-panel">
+        <button type="button" class="lightbox-close" id="lightbox-close">Tutup</button>
+        <div class="lightbox-stage" id="lightbox-stage"></div>
+        <div class="lightbox-footer">
+          <div class="lightbox-text">
+            <h3 id="lightbox-title">Beloved Silvia Rahma</h3>
+            <p id="lightbox-caption"></p>
+          </div>
+          <a href="#" target="_blank" rel="noopener" class="standalone-link" id="lightbox-direct-link">
+            Buka File Asli di Tab Baru
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="love letter 2.js"></script>
+  </body>
+</html>
